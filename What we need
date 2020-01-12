@@ -1,0 +1,17 @@
+This is a list of all the components we will need to run our webscraper:
+
+1. Python
+2. BeautifulSoup (webscraping application for python)
+3. A website to host input/output UI
+4. A script that will take an input URL from our website and read HTML off the link (ex: put in Boston globe link, 
+it will read globe website)
+5. A script that will implement BeautifulSoup on the HTML (prob only looking for p-tags and maybe imgs/vids)
+6. A script that will re-upload the scraped HTML to our website in text format
+
+First functional draft should do this:
+1. Input URL for any Boston Globe article into our website
+2. Scrape all relevant text from article
+3. Re-direct you from input website to output website with all paragraphs and images in correct order
+
+Later drafts should:
+1. Basically copy the entire BosGlob article and remove the paywall
